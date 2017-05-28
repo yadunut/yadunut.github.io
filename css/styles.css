@@ -61,11 +61,13 @@ p {
 }
 
 .navBar li a {
-   display: block;
+   font-family: 'Ubuntu', sans-serif;
+   text display: block;
    color: black;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
+   transition: 0.2s
 }
 
 .navBar li a:hover {
@@ -78,6 +80,7 @@ p {
 }
 
 .header {
+   padding-bottom: 10px;
    color: white;
    text-align: center;
    background: #6D7993;
@@ -92,10 +95,11 @@ p {
 }
 
 .header .fa:hover {
-   transform: scale(1.2, 1.2);
+   transform: scale(1.3);
 }
 
 .about-me {
+   padding-bottom: 10px;
    background-color: #E5E5E5;
 }
 
@@ -112,6 +116,7 @@ p {
 }
 
 .projects {
+   padding-bottom: 10px;
    background-color: #9099A2;
 }
 
@@ -120,7 +125,7 @@ p {
 }
 
 .experience {
-   align-items: center;
+   padding-bottom: 10px;
    background-color: #E5E5E5;
 }
 
@@ -129,6 +134,7 @@ p {
 }
 
 .skills {
+   padding-bottom: 10px;
    background-color: #9099A2;
 }
 
@@ -138,6 +144,7 @@ p {
 
 .education {
    background-color: #E5E5E5;
+   padding-bottom: 10px;
 }
 
 .education h1 i {
@@ -145,11 +152,21 @@ p {
 }
 
 .aspiration {
+   padding-bottom: 10px;
    background-color: #9099A2;
 }
 
 .aspiration h1 i {
    margin-right: 20px;
+}
+
+.aspiration p a {
+   color: blue;
+   text-decoration: underline;
+}
+
+.aspiration p {
+   width: 900px;
 }
 
 .contact {
@@ -160,4 +177,9 @@ p {
 
 .contact h1 i {
    margin-right: 20px;
+}
+
+.contact h2 a {
+   color: blue;
+   text-decoration: underline;
 }
