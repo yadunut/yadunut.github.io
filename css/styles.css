@@ -18,35 +18,6 @@ p {
    margin: 10px;
 }
 
-.card {
-   padding: 20px;
-   margin: 20px;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: white;
-   width: 800px;
-   height: 120px;
-   transition: 0.2s;
-   border-radius: 20px;
-}
-
-.card:hover {
-   transform: scale(1.03);
-}
-
-.card img {
-   width: 100px;
-   height: 100px;
-   margin-right: 20px;
-   margin-top: 10px;
-   margin-left: 10px;
-   float: left;
-}
-
-.card h2 {
-   margin-bottom: 5px;
-}
-
 .navBar ul {
    list-style-type: none;
    margin: 0;
@@ -92,7 +63,16 @@ p {
 }
 
 .header img:hover {
-   transform: scale(5, 2) rotate(360deg);
+   transform: rotate(720deg) scale(5, 2);
+}
+
+@@keyframes rotate {
+   from {
+      transition: rotate(0deg);
+   }
+   to {
+      transition: rotate(360deg);
+   }
 }
 
 .header .fa {
@@ -138,9 +118,50 @@ p {
    margin-right: 20px;
 }
 
+.experience .card {
+   padding: 20px;
+   margin: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   width: 800px;
+   height: 120px;
+   transition: 0.2s;
+   border-radius: 20px;
+}
+
+.experience .card:hover {
+   transform: scale(1.03);
+}
+
+.experience .card img {
+   width: 100px;
+   height: 100px;
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-left: 10px;
+   float: left;
+}
+
+.experience .card h2 {
+   margin-bottom: 5px;
+}
+
 .skills {
    padding-bottom: 10px;
    background-color: #9099A2;
+}
+
+.skills .card {
+   text-align: center;
+   background: white;
+   width: 700px;
+   padding: 1px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 10px;
 }
 
 .skills h1 i {
@@ -154,6 +175,18 @@ p {
 
 .education h1 i {
    margin-right: 20px;
+}
+
+.education .card {
+   text-align: center;
+   background: white;
+   width: 700px;
+   padding: 5px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 10px;
 }
 
 .aspiration {
