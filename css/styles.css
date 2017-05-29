@@ -88,6 +88,11 @@ p {
 
 .header img {
    border-radius: 50%;
+   transition: 1s;
+}
+
+.header img:hover {
+   transform: scale(5, 2) rotate(360deg);
 }
 
 .header .fa {
